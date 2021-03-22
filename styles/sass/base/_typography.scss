@@ -1,0 +1,15 @@
+/*-------------------------- FONTS ---------------------------*/
+
+@font-face {
+    font-family: 'Inter Regular';
+    src:url('../../../textfonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src:url('../../../textfonts/Inter-Bold.ttf') format('truetype');
+}
+
+
+$ff-regular: 'Inter Regular', sans-serif;
+$ff-bold: 'Inter Bold', sans-serif;

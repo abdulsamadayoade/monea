@@ -1,0 +1,170 @@
+/*-------------------------- FONTS ---------------------------*/
+@font-face {
+  font-family: 'Inter Regular';
+  src: url("../../../textfonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url("../../../textfonts/Inter-Bold.ttf") format("truetype");
+}
+
+/*-------------------------- PRESETS ---------------------------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 51%;
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 1.45rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+header .nav {
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav__item {
+  margin: 0 1.5rem;
+}
+
+header .nav__link {
+  color: #000000;
+}
+
+header .hero {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+}
+
+header .hero__text-box, header .hero__image {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+header .hero__text-box {
+  padding: 4rem 0;
+}
+
+header .hero__image {
+  padding: 0 8rem 8rem;
+  height: 500px;
+}
+
+header .hero img {
+  width: 100%;
+}
+
+header .hero__heading {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 4rem;
+}
+
+header .hero__heading span {
+  display: block;
+  line-height: 1.3;
+}
+
+header .hero__subheading {
+  max-width: 50rem;
+  color: #4A4A4A;
+  line-height: 1.8;
+  margin: 3rem 0;
+}
+
+header .hero .btn-black {
+  margin-right: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  border-radius: 1rem;
+  background: transparent;
+  font-family: "Inter Regular", sans-serif;
+  border: 1px solid transparent;
+}
+
+.btn-cta {
+  border-color: #000000;
+  color: #000000;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.btn-grey {
+  background-color: #e3e3e2;
+}
