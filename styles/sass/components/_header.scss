@@ -1,4 +1,19 @@
 header {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: -20%;
+        left: 0;
+        background-image: linear-gradient(to right, #FF8700 , #00FFA3);
+        opacity: 0.5;
+        filter: blur(250px);
+        z-index: -1;
+    }
+
     .nav {
         height: 7rem;
         display: flex;

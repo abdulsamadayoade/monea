@@ -72,6 +72,25 @@ ul {
   padding: 0 2rem;
 }
 
+header {
+  position: relative;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -20%;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF8700), to(#00FFA3));
+  background-image: linear-gradient(to right, #FF8700, #00FFA3);
+  opacity: 0.5;
+  -webkit-filter: blur(250px);
+          filter: blur(250px);
+  z-index: -1;
+}
+
 header .nav {
   height: 7rem;
   display: -webkit-box;
