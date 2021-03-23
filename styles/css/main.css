@@ -124,7 +124,7 @@ header .hero__image div {
   height: 18rem;
   width: 15rem;
   position: absolute;
-  top: 2rem;
+  top: 3rem;
   left: 6rem;
 }
 
@@ -175,6 +175,8 @@ header .hero__brands-box span {
   cursor: pointer;
   font-family: "Inter Regular", sans-serif;
   border: 1px solid transparent;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .btn-cta {
@@ -182,11 +184,24 @@ header .hero__brands-box span {
   color: #000000;
 }
 
+.btn-cta:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
 .btn-black {
   background-color: #000000;
   color: #FFFFFF;
 }
 
+.btn-black:hover {
+  opacity: .8;
+}
+
 .btn-grey {
-  background-color: #e3e3e2;
+  background-color: #E3E3E2;
+}
+
+.btn-grey:hover {
+  background-color: #A9A9A9;
 }
