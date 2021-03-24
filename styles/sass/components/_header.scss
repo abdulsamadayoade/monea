@@ -8,7 +8,7 @@ header {
         width: 100%;
         top: -20%;
         left: 0;
-        background-image: linear-gradient(to right, #FF8700 , #00FFA3);
+        background-image: linear-gradient(to right, rgba(255, 135, 0, .6) , rgb(134, 230, 195));
         opacity: 0.5;
         filter: blur(250px);
         z-index: -1;
@@ -50,16 +50,16 @@ header {
         &__image {
             position: relative;
 
+            img {
+                width: 100%;
+            }
+
              div {
                 height: 18rem;
                 width: 15rem;
                 position: absolute;
                 top: 3rem;
                 left: 6rem;
-
-                img {
-                    width: 100%;
-                }
             }
         }
 

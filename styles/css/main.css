@@ -83,8 +83,8 @@ header::before {
   width: 100%;
   top: -20%;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FF8700), to(#00FFA3));
-  background-image: linear-gradient(to right, #FF8700, #00FFA3);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 135, 0, 0.6)), to(#86e6c3));
+  background-image: linear-gradient(to right, rgba(255, 135, 0, 0.6), #86e6c3);
   opacity: 0.5;
   -webkit-filter: blur(250px);
           filter: blur(250px);
@@ -139,16 +139,16 @@ header .hero__image {
   position: relative;
 }
 
+header .hero__image img {
+  width: 100%;
+}
+
 header .hero__image div {
   height: 18rem;
   width: 15rem;
   position: absolute;
   top: 3rem;
   left: 6rem;
-}
-
-header .hero__image div img {
-  width: 100%;
 }
 
 header .hero__heading {
