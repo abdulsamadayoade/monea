@@ -322,8 +322,8 @@ section {
   width: 100%;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#FF8700), color-stop(#FFFFFF), to(#00FFA3));
-  background-image: linear-gradient(to bottom right, #FF8700, #FFFFFF, #00FFA3);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#d4bfa6), color-stop(#FFFFFF), to(#b8e9d7));
+  background-image: linear-gradient(to bottom left, #d4bfa6, #FFFFFF, #b8e9d7);
   opacity: 0.5;
   -webkit-filter: blur(250px);
           filter: blur(250px);
