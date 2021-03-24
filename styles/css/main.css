@@ -240,12 +240,12 @@ header .hero__brands-box span {
 }
 
 section {
-  padding: 13rem 0;
+  padding: 14rem 0;
 }
 
 .features__row--1 {
   max-width: 48rem;
-  margin: 0 auto 6rem;
+  margin: 0 auto 7rem;
   text-align: center;
 }
 
@@ -309,4 +309,42 @@ section {
 
 .features__col--2 .p-3 {
   color: #BDBDBD;
+}
+
+.performance {
+  position: relative;
+}
+
+.performance::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FF8700), color-stop(#FFFFFF), to(#00FFA3));
+  background-image: linear-gradient(to bottom right, #FF8700, #FFFFFF, #00FFA3);
+  opacity: 0.5;
+  -webkit-filter: blur(250px);
+          filter: blur(250px);
+  z-index: -1;
+}
+
+.performance__row--1 {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.performance__row--1 .square-logo {
+  width: 9rem;
+}
+
+.performance__row--1 .h-2 {
+  line-height: 1.4;
+  margin: 2rem 0 4rem;
+}
+
+.performance__row--2 img {
+  width: 100%;
 }

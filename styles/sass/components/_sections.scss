@@ -1,12 +1,12 @@
 section {
-    padding: 13rem 0;
+    padding: 14rem 0;
 }
 
 // FEATURES SECTION
 .features {
     &__row--1 {
         max-width: 48rem;
-        margin: 0 auto 6rem;
+        margin: 0 auto 7rem;
         text-align: center;
     }
 
@@ -57,5 +57,42 @@ section {
 
         .h-3 {color: $color-3;}
         .p-3 {color:$color-6;}
+    }
+}
+
+// PERFORMANCE SECTIONS
+.performance {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, #FF8700, #FFFFFF, #00FFA3);
+        opacity: 0.5;
+        filter: blur(250px);
+        z-index: -1;
+    }
+
+    &__row--1 {
+        max-width: 48rem;
+        margin: 0 auto;
+        text-align: center;
+
+        .square-logo {
+            width: 9rem;
+        }
+
+        .h-2 {
+            line-height: 1.4;
+            margin: 2rem 0 4rem;
+        }
+    }
+
+    &__row--2 {
+        img {width: 100%;}
     }
 }
