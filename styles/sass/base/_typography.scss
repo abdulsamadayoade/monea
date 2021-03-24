@@ -13,3 +13,19 @@
 
 $ff-regular: 'Inter Regular', sans-serif;
 $ff-bold: 'Inter Bold', sans-serif;
+
+p {
+    color: $color-2;
+    line-height: 1.8;
+}
+
+.h-2 {
+    font-family: $ff-bold;
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.h-3 {
+    font-family: $ff-bold;
+    font-weight: 600;
+}

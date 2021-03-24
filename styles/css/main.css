@@ -9,6 +9,22 @@
   src: url("../../../textfonts/Inter-Bold.ttf") format("truetype");
 }
 
+p {
+  color: #4A4A4A;
+  line-height: 1.8;
+}
+
+.h-2 {
+  font-family: "Inter Bold", sans-serif;
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.h-3 {
+  font-family: "Inter Bold", sans-serif;
+  font-weight: 600;
+}
+
 /*-------------------------- PRESETS ---------------------------*/
 *,
 *::before,
@@ -163,8 +179,6 @@ header .hero__heading span {
 
 header .hero__subheading {
   max-width: 50rem;
-  color: #4A4A4A;
-  line-height: 1.8;
   margin: 3rem 0;
 }
 
@@ -223,4 +237,67 @@ header .hero__brands-box span {
 
 .btn-grey:hover {
   background-color: #A9A9A9;
+}
+
+section {
+  padding: 13rem 0;
+}
+
+.features__row--1 {
+  max-width: 48rem;
+  margin: 0 auto 5rem;
+  text-align: center;
+}
+
+.features .h-2 {
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+.features__row--2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 9rem;
+          column-gap: 9rem;
+}
+
+.features__col {
+  padding: 2rem;
+  height: 30rem;
+}
+
+.features__col img {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 1rem auto;
+}
+
+.features__col .h-3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.features__col .p-3 {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features__col--2 {
+  background-color: #000000;
+}
+
+.features__col--2 .h-3 {
+  color: #FFFFFF;
+}
+
+.features__col--2 .p-3 {
+  color: #BDBDBD;
 }
