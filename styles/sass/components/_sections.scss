@@ -184,3 +184,19 @@ section {
         }
     }
 }
+
+// CONTACT SECTION
+.contact {
+    .container {
+        div {
+            max-width: 48rem;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    .h-2 {
+        margin: 2rem 0 3.5rem;
+        line-height: 1.25;
+    }
+}
