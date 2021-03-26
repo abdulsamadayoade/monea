@@ -450,3 +450,51 @@ section {
   margin: 2rem 0 3.5rem;
   line-height: 1.25;
 }
+
+.footer {
+  padding: 4rem 0;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__logo,
+.footer h5 {
+  display: inline-block;
+  margin-bottom: 1.8rem;
+}
+
+.footer__col--1 p {
+  font-size: 1.3rem;
+  max-width: 30rem;
+  line-height: 1.6;
+}
+
+.footer__col--1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.footer__col--1 li {
+  margin-right: 2rem;
+}
+
+.footer li {
+  margin-bottom: .5rem;
+}
+
+.footer a {
+  color: #4A4A4A;
+  font-size: 1.3rem;
+}

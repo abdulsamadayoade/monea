@@ -1,0 +1,38 @@
+.footer {
+    padding: 4rem 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__logo,
+    h5 {
+        display: inline-block;
+        margin-bottom: 1.8rem;
+    }
+
+    &__col--1 {
+        p {
+            font-size: 1.3rem;
+            max-width: 30rem;
+            line-height: 1.6;
+        }
+
+        ul {
+            display: flex;
+            margin-top: 4rem;
+        }
+
+        li {margin-right: 2rem;}
+    }
+
+    li {
+        margin-bottom: .5rem;
+    }
+
+    a {
+        color: $color-2;
+        font-size: 1.3rem;
+    }
+}
