@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+    header {
+        .nav {
+
+            &__logo {
+                img {
+                    width: 9rem;
+                }
+            }
+
+            &__list {
+                display: none;
+            }
+
+            .btn-cta {
+                display: none;
+            }
+        }
+
+        .hero {
+            // flex-direction: column-reverse;
+        }
+    }
+}

@@ -498,3 +498,15 @@ section {
   color: #4A4A4A;
   font-size: 1.3rem;
 }
+
+@media screen and (max-width: 768px) {
+  header .nav__logo img {
+    width: 9rem;
+  }
+  header .nav__list {
+    display: none;
+  }
+  header .nav .btn-cta {
+    display: none;
+  }
+}
