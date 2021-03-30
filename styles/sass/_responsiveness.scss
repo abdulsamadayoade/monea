@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+    .h-2 {
+        font-size: 2.8rem;
+    }
+
     header {
         .nav {
 
@@ -18,7 +22,58 @@
         }
 
         .hero {
-            // flex-direction: column-reverse;
+            height: initial;
+
+            &__image {
+                display: none;
+            }
+        }
+    }
+
+    .features {
+        &__row--2 {
+            grid-template-columns: 50rem;
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 5rem;
+            justify-content: center;
+        }
+    }
+
+    .security {
+        &__row {
+            flex-direction: column;
+        }
+    }
+
+    .footer {
+        &__logo {
+            img {
+                width: 9rem;
+            }
+        }
+
+        &__inner {
+            flex-direction: column;
+
+            > div {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .footer__col--1 ul {
+            margin-top: 2rem;
+        }
+
+        .h-5 {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .features {
+        &__row--2 {
+            grid-template-columns: 1fr;
         }
     }
 }
