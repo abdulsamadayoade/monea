@@ -1,28 +1,16 @@
-/*-------------------------- FONTS ---------------------------*/
-@font-face {
-  font-family: 'Inter Regular';
-  src: url("../../../textfonts/Inter-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Inter Bold';
-  src: url("../../../textfonts/Inter-Bold.ttf") format("truetype");
-}
-
 p {
   color: #4A4A4A;
   line-height: 1.8;
 }
 
-.h-2 {
-  font-family: "Inter Bold", sans-serif;
-  font-size: 3.2rem;
-  margin-bottom: 2.4rem;
+.h-2,
+.h-3 {
+  font-weight: 600;
 }
 
-.h-3 {
-  font-family: "Inter Bold", sans-serif;
-  font-weight: 600;
+.h-2 {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 /*-------------------------- PRESETS ---------------------------*/
@@ -68,7 +56,8 @@ html {
 }
 
 body {
-  font-family: "Inter Regular", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 1.45rem;
   line-height: 1.6;
 }
@@ -172,7 +161,7 @@ header .hero__image div {
 }
 
 header .hero__heading {
-  font-family: "Inter Bold", sans-serif;
+  font-weight: 600;
   font-size: 4rem;
 }
 
@@ -210,7 +199,8 @@ header .hero__brands-box span {
   border-radius: 1rem;
   background: transparent;
   cursor: pointer;
-  font-family: "Inter Regular", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   border: 1px solid transparent;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
