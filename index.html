@@ -18,17 +18,30 @@
 
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Platform</a>
+                        <a href="#features" class="nav__link">Features</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Solutions</a>
+                        <a href="#performance" class="nav__link">Performance</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Partners</a>
+                        <a href="#security" class="nav__link">Security</a>
                     </li>
                 </ul>
 
                 <button class="btn btn-cta">sign in</button>
+
+                <button class="menu-toggle">
+                    <svg height="6" width="20" xmlns="http://www.w3.org/2000/svg" class="open">
+                        <g fill-rule="evenodd">
+                            <path d="M0 0h20v1H0zM0 5h20v1H0z"></path>
+                        </g>
+                    </svg>
+                    <svg height="15" width="16" xmlns="http://www.w3.org/2000/svg" class="close">
+                        <path
+                            d="M14.718.075l.707.707L8.707 7.5l6.718 6.718-.707.707L8 8.207l-6.718 6.718-.707-.707L7.293 7.5.575.782l.707-.707L8 6.793 14.718.075z"
+                            fill-rule="evenodd"></path>
+                    </svg>
+                </button>
             </nav>
             <div class="hero">
                 <div class="hero__text-box">
@@ -59,7 +72,7 @@
     </header>
 
     <!-- FEATURES -->
-    <section class="features">
+    <section id="features" class="features">
         <div class="container">
             <div class="features__row--1">
                 <h2 class="h-2">We're always<br> working for you</h2>
@@ -86,7 +99,7 @@
     </section>
 
     <!-- PERFORMANCE -->
-    <section class="performance">
+    <section id="performance" class="performance">
         <div class="container">
             <div class="performance__row--1">
                 <img src="assets/square-logo.svg" alt="square logo" class="square-logo">
@@ -100,7 +113,7 @@
     </section>
 
     <!-- SECURITY SECTION -->
-    <section class="security">
+    <section id="security" class="security">
         <div class="container">
             <img src="assets/lock-icon.png" alt="lock icon" class="lock-icon">
             <h2 class="h-2">Serious Security</h2>
@@ -155,12 +168,12 @@
                     <ul>
                         <li>
                             <a href="">
-                                <img src="assets/facebook.png" alt="facebook logo">
+                                <img src="assets/fb.png" alt="facebook logo">
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="assets/twitter.png" alt="twitter logo">
+                                <img src="assets/tw.png" alt="twitter logo">
                             </a>
                         </li>
                         <li>
@@ -198,5 +211,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
